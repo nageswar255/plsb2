@@ -1,0 +1,10 @@
+server: 
+  port: 8282
+
+spring:
+  profiles:
+    active:
+    - demo
+    - test
+  application:
+    name: demo-app2
